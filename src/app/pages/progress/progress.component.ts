@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ProgressComponent  {
 
+  constructor(){console.log('Progreso...')}
   progreso1:number = 20;
   progreso2:number = 35;
 

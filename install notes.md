@@ -60,4 +60,10 @@ git tag     // consultar tags
 git tag -a v1.1.1 -m "texto para la version que queramos"
 git pusg --tag
 
-git remove -v  // mostrará los enlaces a github para accedeer directamente
+git remote -v  // mostrará los enlaces a github para acceder directamente
+
+<div id='id4' />
+## Req RES
+reqres.in
+API abierto para pruebas
+https://reqres.in/api/users

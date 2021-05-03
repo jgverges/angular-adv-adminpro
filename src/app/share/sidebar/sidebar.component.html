@@ -35,7 +35,11 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li *ngFor="let sudmenuItem of item.submenu">
-                            <a [routerLink]="sudmenuItem.url">{{sudmenuItem.titulo}}</a>
+                            <a  [routerLink]="sudmenuItem.url"
+                                routerLinkActive="active"
+                                [routerLinkActiveOptions]="{exact:true}">
+                                {{sudmenuItem.titulo}}
+                            </a>
                         </li>
                     </ul>
                 </li>
